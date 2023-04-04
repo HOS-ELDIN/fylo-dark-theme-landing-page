@@ -8,7 +8,7 @@ submit.addEventListener("click", (e) => {
 });
 
 function mailCheck() {
-	const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 	if (emailRegex.test(mailField.value)) {
 		// console.log("Valid email address");
