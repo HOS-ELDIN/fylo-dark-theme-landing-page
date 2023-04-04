@@ -290,7 +290,7 @@
 				action=""
 			>
 				<input
-					class="rounded-full px-7 py-3 flex-grow"
+					class="rounded-full px-7 py-3 flex-grow text-Blue"
 					type="email"
 					name=""
 					id="mail"
@@ -299,14 +299,14 @@
 				<input
 					class="rounded-full px-7 py-3 bg-gradient-to-r from-Cyan to-Blue hover:to-Cyan cursor-pointer"
 					type="submit"
+					id="submit"
 					value="Get Started For Free "
 				/>
 				<label
-					class="absolute text-LightRed bottom-[45px] lg:-bottom-6 left-7"
+					class="error hidden absolute text-LightRed bottom-[45px] lg:-bottom-6 left-7"
 					for="mail"
 				>
-					Please enter a valid e,ail address</label
-				>
+				</label>
 			</form>
 		</section>
 
@@ -374,14 +374,21 @@
 			</div>
 			<p class="attribution text-xs text-center mt-5">
 				Challenge by
-				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				<a
+					class="text-Cyan"
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
 					>Frontend Mentor</a
-				>. Coded by <a class="capitalize" href="#">hossam eldin</a>.
+				>. Coded by
+				<a class="capitalize text-Cya text-Blue" href="#">hossam eldin</a>.
 			</p>
 		</footer>
+
 		<script
 			src="https://kit.fontawesome.com/c4e7ee9922.js"
 			crossorigin="anonymous"
 		></script>
+
+		<script src="main.js"></script>
 	</body>
 </html>

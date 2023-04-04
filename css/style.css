@@ -588,6 +588,9 @@ video {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
@@ -832,6 +835,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-Blue {
+  --tw-text-opacity: 1;
+  color: hsl(198 60% 50% / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
