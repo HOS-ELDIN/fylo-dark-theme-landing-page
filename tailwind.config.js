@@ -31,6 +31,7 @@ module.exports = {
 			},
 			gridTemplateColumns: {
 				twoAuto: "repeat(2, minmax(0, auto))",
+				fiveAuto: "repeat(5, minmax(0, auto))",
 			},
 		},
 	},
